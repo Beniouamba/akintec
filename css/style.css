@@ -622,7 +622,6 @@ img { max-width: 100%; height: auto; display: block; }
   min-height: 60vh;
   display: flex;
   align-items: center;
-  overflow: hidden;
   padding: 170px 24px 40px;
 }
 
