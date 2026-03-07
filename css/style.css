@@ -372,6 +372,10 @@ img { max-width: 100%; height: auto; display: block; }
   flex-shrink: 0;
 }
 
+.color-black{
+  color: black;
+}
+
 .nav-dropdown a .dd-icon svg { width: 16px; height: 16px; color: var(--green-primary); }
 
 .header-actions {
@@ -991,7 +995,13 @@ img { max-width: 100%; height: auto; display: block; }
 .why-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
+  gap: 15px;
+}
+
+.why-grid-again {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2.0px, 1fr));
+  gap: 10px;
 }
 
 .why-card {
@@ -1363,6 +1373,15 @@ img { max-width: 100%; height: auto; display: block; }
 .about-value p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; }
 
 /* ===== TEAM ===== */
+
+.icons-social{
+  position: absolute;
+  bottom: 30%;
+  right: 40%;
+  display: flex;
+  gap: 15px;
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -2006,3 +2025,4 @@ img { max-width: 100%; height: auto; display: block; }
 @media (max-width: 480px) {
   .process-grid { grid-template-columns: 1fr; }
 }
+
