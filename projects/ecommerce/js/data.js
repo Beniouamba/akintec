@@ -37,16 +37,16 @@ const products = [
     specs: { fr: "Cuir véritable · Doublure polyester · Machine 30°C", en: "Genuine leather · Polyester lining · Machine 30°C", de: "Echtes Leder · Polyesterfutter", es: "Cuero genuino · Forro poliéster" }
   },
   {
-    id: 3, sku: "HOME-001",
-    name: { fr: "Lampe Design Scandinave", en: "Scandinavian Design Lamp", de: "Skandinavische Designlampe", es: "Lámpara Diseño Escandinavo" },
+    id: 3, sku: "ELEC-002",
+    name: { fr: "Montre Connectée Sport", en: "Sport Smartwatch", de: "Sport-Smartwatch", es: "Smartwatch Deportivo" },
     category: "home",
-    price: 89.99, oldPrice: 120.00,
-    rating: 4.9, reviews: 156,
+    price: 199.99, oldPrice: null,
+    rating: 4.7, reviews: 312,
     stock: 22, featured: true, isNew: false, onSale: true,
     colors: ["#f5f0e8", "#2c2c2c", "#8fbc8f"],
     sizes: [],
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
-    images: ["https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80","https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&q=80"],
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+    images: ["https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80"],
     description: { fr: "Lampe à poser au design épuré scandinave. Lumière chaleureuse et douce pour une ambiance cosy.", en: "Table lamp with clean Scandinavian design. Warm light for a cosy atmosphere.", de: "Tischlampe mit klarem skandinavischem Design.", es: "Lámpara de mesa con diseño escandinavo limpio." },
     specs: { fr: "E27 · 60W max · Hauteur 45cm · Bois + métal", en: "E27 · 60W max · Height 45cm · Wood + metal", de: "E27 · 60W max · Höhe 45cm", es: "E27 · 60W máx · Altura 45cm" }
   },
