@@ -216,11 +216,14 @@ img { max-width: 100%; height: auto; display: block; }
   z-index: 999;
 }
 
-.lang-switcher:hover .lang-dropdown {
+/* APRÈS — remplace par la classe .open */
+.lang-switcher:hover .lang-dropdown,
+.lang-dropdown.open {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
+
 
 .lang-dropdown a {
   display: flex;
